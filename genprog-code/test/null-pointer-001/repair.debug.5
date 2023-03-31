@@ -92,7 +92,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --sample-runs 100
 --sanity "default"
 --search "steady-state"
---seed 560680701
+--seed 5
 --semantic-check "exact"
 --single-fitness false
 --skip-failed-sanity-tests false
@@ -114,18 +114,33 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --valgrind false
 --variants-exchanged 50
 --version false
-cilRep: preprocessing IO function signatures: /tmp/tmp03f7b5.c /tmp/tmpa08587.c
+cilRep: preprocessing IO function signatures: /tmp/tmpf2508c.c /tmp/tmp0f0518.c
 cilRep: done preprocessing IO function signatures
 Exception in loading: Sys_error("nullp-001.cache: No such file or directory")
 cilrep: from_source: pre: stmt_count = 0
-cilRep: ./nullp-001.c: parsing
-../../src/repair aborting: Errormsg.Error
+cilRep: nullp-001.c: parsing
+cilRep: nullp-001.c: parsed (0.0185328 MB)
+cilrep: from_source: post: stmt_count: 35
+cilRep: shared size: 0.0249681 MB
+cilRep: private size: 0.00812721 MB
+cachingRepresentation: sanity checking begins
+	n1: false (0)
+	n2: false (0)
+	n3: false (0)
+	p1: false (0)
+
+ABORT:
+
+cachingRepresentation: sanity check failed (p1)
 Rep: saving test cache
 
 Variant Test Case Queries: 0
 "Test Suite Evaluations": 0
 
 Compile Failures: 0
-Wall-Clock Seconds Elapsed: 0.029392
+Wall-Clock Seconds Elapsed: 0.0670042
   Activity Name                     Count Seconds = Percent of Total Time
-  TOTAL                                     0.000 = 0% (avg CPU usage)
+  rebuild files                         1   0.000 = 0.678453%
+  test                                  4   0.003 = 8.54005%
+  compile                               1   0.035 = 90.7815%
+  TOTAL                                     0.038 = 53.7915% (avg CPU usage)
