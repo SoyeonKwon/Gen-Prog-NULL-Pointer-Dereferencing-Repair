@@ -1,0 +1,260 @@
+### Starting build.
+# Target: ocamlutil/alpha.mli.depends, tags: { extension:mli, file:ocamlutil/alpha.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/alpha.mli > ocamlutil/alpha.mli.depends # cached
+# Target: ocamlutil/pretty.mli.depends, tags: { extension:mli, file:ocamlutil/pretty.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/pretty.mli > ocamlutil/pretty.mli.depends # cached
+# Target: ocamlutil/pretty.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/pretty.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/pretty.cmi ocamlutil/pretty.mli # cached
+# Target: ocamlutil/alpha.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/alpha.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/alpha.cmi ocamlutil/alpha.mli # cached
+# Target: ocamlutil/alpha.ml.depends, tags: { extension:ml, file:ocamlutil/alpha.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/alpha.ml > ocamlutil/alpha.ml.depends # cached
+# Target: ocamlutil/errormsg.mli.depends, tags: { extension:mli, file:ocamlutil/errormsg.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/errormsg.mli > ocamlutil/errormsg.mli.depends # cached
+# Target: ocamlutil/errormsg.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/errormsg.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/errormsg.cmi ocamlutil/errormsg.mli # cached
+# Target: src/ext/availexps.ml.depends, tags: { extension:ml, file:src/ext/availexps.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/availexps.ml > src/ext/availexps.ml.depends # cached
+# Target: src/cil.mli.depends, tags: { extension:mli, file:src/cil.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cil.mli > src/cil.mli.depends # cached
+# Target: src/cilint.mli.depends, tags: { extension:mli, file:src/cilint.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cilint.mli > src/cilint.mli.depends # cached
+# Target: src/cilint.cmi, tags: { byte, compile, extension:mli, file:src/cilint.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/cilint.cmi src/cilint.mli # cached
+# Target: make -C .. _build/machdep.ml, tags: {  }
+make -C .. _build/machdep.ml # cached
+# Target: machdep.ml.depends, tags: { extension:ml, file:machdep.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules machdep.ml > machdep.ml.depends # cached
+# Target: machdep.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:machdep.cmo, file:machdep.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o machdep.cmo machdep.ml # cached
+# Target: src/cil.cmi, tags: { byte, compile, extension:mli, file:src/cil.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/cil.cmi src/cil.mli # cached
+# Target: src/ext/dataflow.mli.depends, tags: { extension:mli, file:src/ext/dataflow.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/dataflow.mli > src/ext/dataflow.mli.depends # cached
+# Target: ocamlutil/inthash.mli.depends, tags: { extension:mli, file:ocamlutil/inthash.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/inthash.mli > ocamlutil/inthash.mli.depends # cached
+# Target: ocamlutil/inthash.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/inthash.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/inthash.cmi ocamlutil/inthash.mli # cached
+# Target: src/ext/dataflow.cmi, tags: { byte, compile, extension:mli, file:src/ext/dataflow.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/dataflow.cmi src/ext/dataflow.mli # cached
+# Target: src/ext/expcompare.ml.depends, tags: { extension:ml, file:src/ext/expcompare.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/expcompare.ml > src/ext/expcompare.ml.depends # cached
+# Target: ocamlutil/util.mli.depends, tags: { extension:mli, file:ocamlutil/util.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/util.mli > ocamlutil/util.mli.depends # cached
+# Target: ocamlutil/util.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/util.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/util.cmi ocamlutil/util.mli # cached
+# Target: src/ext/expcompare.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ext/expcompare.cmo, file:src/ext/expcompare.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/expcompare.cmo src/ext/expcompare.ml # cached
+# Target: ocamlutil/stats.mli.depends, tags: { extension:mli, file:ocamlutil/stats.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/stats.mli > ocamlutil/stats.mli.depends # cached
+# Target: ocamlutil/stats.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/stats.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/stats.cmi ocamlutil/stats.mli # cached
+# Target: src/ext/usedef.ml.depends, tags: { extension:ml, file:src/ext/usedef.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/usedef.ml > src/ext/usedef.ml.depends # cached
+# Target: src/ext/usedef.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ext/usedef.cmo, file:src/ext/usedef.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/usedef.cmo src/ext/usedef.ml # cached
+# Target: src/ext/availexpslv.ml.depends, tags: { extension:ml, file:src/ext/availexpslv.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/availexpslv.ml > src/ext/availexpslv.ml.depends # cached
+# Target: ocamlutil/bitmap.mli.depends, tags: { extension:mli, file:ocamlutil/bitmap.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/bitmap.mli > ocamlutil/bitmap.mli.depends # cached
+# Target: ocamlutil/bitmap.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/bitmap.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/bitmap.cmi ocamlutil/bitmap.mli # cached
+# Target: ocamlutil/bitmap.ml.depends, tags: { extension:ml, file:ocamlutil/bitmap.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/bitmap.ml > ocamlutil/bitmap.ml.depends # cached
+# Target: src/frontc/cabs.ml.depends, tags: { extension:ml, file:src/frontc/cabs.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cabs.ml > src/frontc/cabs.ml.depends # cached
+# Target: src/frontc/cabs.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/frontc/cabs.cmo, file:src/frontc/cabs.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/cabs.cmo src/frontc/cabs.ml # cached
+# Target: src/frontc/cabs2cil.mli.depends, tags: { extension:mli, file:src/frontc/cabs2cil.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cabs2cil.mli > src/frontc/cabs2cil.mli.depends # cached
+# Target: src/frontc/cabs2cil.cmi, tags: { byte, compile, extension:mli, file:src/frontc/cabs2cil.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/cabs2cil.cmi src/frontc/cabs2cil.mli # cached
+# Target: src/frontc/cabs2cil.ml.depends, tags: { extension:ml, file:src/frontc/cabs2cil.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cabs2cil.ml > src/frontc/cabs2cil.ml.depends # cached
+# Target: src/frontc/cabshelper.ml.depends, tags: { extension:ml, file:src/frontc/cabshelper.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cabshelper.ml > src/frontc/cabshelper.ml.depends # cached
+# Target: ocamlutil/growArray.mli.depends, tags: { extension:mli, file:ocamlutil/growArray.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/growArray.mli > ocamlutil/growArray.mli.depends # cached
+# Target: ocamlutil/growArray.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/growArray.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/growArray.cmi ocamlutil/growArray.mli # cached
+# Target: src/frontc/cabshelper.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/frontc/cabshelper.cmo, file:src/frontc/cabshelper.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/cabshelper.cmo src/frontc/cabshelper.ml # cached
+# Target: src/frontc/cabsvisit.mli.depends, tags: { extension:mli, file:src/frontc/cabsvisit.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cabsvisit.mli > src/frontc/cabsvisit.mli.depends # cached
+# Target: src/frontc/cabsvisit.cmi, tags: { byte, compile, extension:mli, file:src/frontc/cabsvisit.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/cabsvisit.cmi src/frontc/cabsvisit.mli # cached
+# Target: src/cilutil.ml.depends, tags: { extension:ml, file:src/cilutil.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cilutil.ml > src/cilutil.ml.depends # cached
+# Target: src/cilutil.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/cilutil.cmo, file:src/cilutil.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/cilutil.cmo src/cilutil.ml # cached
+# Target: src/frontc/cprint.ml.depends, tags: { extension:ml, file:src/frontc/cprint.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cprint.ml > src/frontc/cprint.ml.depends # cached
+# Target: src/escape.mli.depends, tags: { extension:mli, file:src/escape.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/escape.mli > src/escape.mli.depends # cached
+# Target: src/escape.cmi, tags: { byte, compile, extension:mli, file:src/escape.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/escape.cmi src/escape.mli # cached
+# Target: src/frontc/whitetrack.mli.depends, tags: { extension:mli, file:src/frontc/whitetrack.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/whitetrack.mli > src/frontc/whitetrack.mli.depends # cached
+# Target: src/frontc/whitetrack.cmi, tags: { byte, compile, extension:mli, file:src/frontc/whitetrack.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/whitetrack.cmi src/frontc/whitetrack.mli # cached
+# Target: src/frontc/cprint.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/frontc/cprint.cmo, file:src/frontc/cprint.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/cprint.cmo src/frontc/cprint.ml # cached
+# Target: ocamlutil/trace.mli.depends, tags: { extension:mli, file:ocamlutil/trace.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/trace.mli > ocamlutil/trace.mli.depends # cached
+# Target: ocamlutil/trace.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/trace.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/trace.cmi ocamlutil/trace.mli # cached
+# Target: src/frontc/cabsvisit.ml.depends, tags: { extension:ml, file:src/frontc/cabsvisit.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cabsvisit.ml > src/frontc/cabsvisit.ml.depends # cached
+# Target: src/ext/callgraph.mli.depends, tags: { extension:mli, file:src/ext/callgraph.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/callgraph.mli > src/ext/callgraph.mli.depends # cached
+# Target: src/ext/callgraph.cmi, tags: { byte, compile, extension:mli, file:src/ext/callgraph.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/callgraph.cmi src/ext/callgraph.mli # cached
+# Target: src/ext/callgraph.ml.depends, tags: { extension:ml, file:src/ext/callgraph.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/callgraph.ml > src/ext/callgraph.ml.depends # cached
+# Target: src/ext/canonicalize.mli.depends, tags: { extension:mli, file:src/ext/canonicalize.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/canonicalize.mli > src/ext/canonicalize.mli.depends # cached
+# Target: src/ext/canonicalize.cmi, tags: { byte, compile, extension:mli, file:src/ext/canonicalize.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/canonicalize.cmi src/ext/canonicalize.mli # cached
+# Target: src/ext/canonicalize.ml.depends, tags: { extension:ml, file:src/ext/canonicalize.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/canonicalize.ml > src/ext/canonicalize.ml.depends # cached
+# Target: src/ext/cfg.mli.depends, tags: { extension:mli, file:src/ext/cfg.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/cfg.mli > src/ext/cfg.mli.depends # cached
+# Target: src/ext/cfg.cmi, tags: { byte, compile, extension:mli, file:src/ext/cfg.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/cfg.cmi src/ext/cfg.mli # cached
+# Target: src/ext/cfg.ml.depends, tags: { extension:ml, file:src/ext/cfg.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/cfg.ml > src/ext/cfg.ml.depends # cached
+# Target: src/check.mli.depends, tags: { extension:mli, file:src/check.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/check.mli > src/check.mli.depends # cached
+# Target: src/check.cmi, tags: { byte, compile, extension:mli, file:src/check.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/check.cmi src/check.mli # cached
+# Target: src/check.ml.depends, tags: { extension:ml, file:src/check.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/check.ml > src/check.ml.depends # cached
+# Target: src/cil.ml.depends, tags: { extension:ml, file:src/cil.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cil.ml > src/cil.ml.depends # cached
+# Target: make -C .. _build/cilversion.ml, tags: {  }
+make -C .. _build/cilversion.ml # cached
+# Target: cilversion.ml.depends, tags: { extension:ml, file:cilversion.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules cilversion.ml > cilversion.ml.depends # cached
+# Target: cilversion.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:cilversion.cmo, file:cilversion.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o cilversion.cmo cilversion.ml # cached
+# Target: ocamlutil/clist.mli.depends, tags: { extension:mli, file:ocamlutil/clist.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/clist.mli > ocamlutil/clist.mli.depends # cached
+# Target: ocamlutil/clist.cmi, tags: { byte, compile, extension:mli, file:ocamlutil/clist.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I ocamlutil -I src -I src/ext -I src/frontc -I src/ext/pta -o ocamlutil/clist.cmi ocamlutil/clist.mli # cached
+# Target: src/cilint.ml.depends, tags: { extension:ml, file:src/cilint.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cilint.ml > src/cilint.ml.depends # cached
+# Target: src/cillower.mli.depends, tags: { extension:mli, file:src/cillower.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cillower.mli > src/cillower.mli.depends # cached
+# Target: src/cillower.cmi, tags: { byte, compile, extension:mli, file:src/cillower.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/cillower.cmi src/cillower.mli # cached
+# Target: src/cillower.ml.depends, tags: { extension:ml, file:src/cillower.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/cillower.ml > src/cillower.ml.depends # cached
+# Target: src/ciloptions.mli.depends, tags: { extension:mli, file:src/ciloptions.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ciloptions.mli > src/ciloptions.mli.depends # cached
+# Target: src/ciloptions.cmi, tags: { byte, compile, extension:mli, file:src/ciloptions.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/ciloptions.cmi src/ciloptions.mli # cached
+# Target: src/ciloptions.ml.depends, tags: { extension:ml, file:src/ciloptions.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ciloptions.ml > src/ciloptions.ml.depends # cached
+# Target: src/frontc/frontc.mli.depends, tags: { extension:mli, file:src/frontc/frontc.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/frontc.mli > src/frontc/frontc.mli.depends # cached
+# Target: src/frontc/frontc.cmi, tags: { byte, compile, extension:mli, file:src/frontc/frontc.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/frontc.cmi src/frontc/frontc.mli # cached
+# Target: src/machdepenv.ml.depends, tags: { extension:ml, file:src/machdepenv.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/machdepenv.ml > src/machdepenv.ml.depends # cached
+# Target: src/machdepenv.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/machdepenv.cmo, file:src/machdepenv.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/machdepenv.cmo src/machdepenv.ml # cached
+# Target: src/mergecil.mli.depends, tags: { extension:mli, file:src/mergecil.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/mergecil.mli > src/mergecil.mli.depends # cached
+# Target: src/mergecil.cmi, tags: { byte, compile, extension:mli, file:src/mergecil.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/mergecil.cmi src/mergecil.mli # cached
+# Target: src/rmtmps.mli.depends, tags: { extension:mli, file:src/rmtmps.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/rmtmps.mli > src/rmtmps.mli.depends # cached
+# Target: src/rmtmps.cmi, tags: { byte, compile, extension:mli, file:src/rmtmps.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/rmtmps.cmi src/rmtmps.mli # cached
+# Target: src/ext/ciltools.ml.depends, tags: { extension:ml, file:src/ext/ciltools.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/ciltools.ml > src/ext/ciltools.ml.depends # cached
+# Target: src/ext/ciltools.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ext/ciltools.cmo, file:src/ext/ciltools.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/ciltools.cmo src/ext/ciltools.ml # cached
+# Target: src/frontc/clexer.mli.depends, tags: { extension:mli, file:src/frontc/clexer.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/clexer.mli > src/frontc/clexer.mli.depends # cached
+# Target: src/frontc/cparser.mly, tags: { extension:mly, file:src/frontc/cparser.mly, infer, ocaml, ocamlyacc, parser, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlyacc src/frontc/cparser.mly # cached
+# Target: src/frontc/cparser.mli.depends, tags: { extension:mli, file:src/frontc/cparser.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cparser.mli > src/frontc/cparser.mli.depends # cached
+# Target: src/frontc/cparser.cmi, tags: { byte, compile, extension:mli, file:src/frontc/cparser.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/cparser.cmi src/frontc/cparser.mli # cached
+# Target: src/frontc/clexer.cmi, tags: { byte, compile, extension:mli, file:src/frontc/clexer.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/clexer.cmi src/frontc/clexer.mli # cached
+# Target: src/frontc/clexer.mll, tags: { extension:mll, file:src/frontc/clexer.mll, lexer, ocaml, ocamllex, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamllex.opt -q src/frontc/clexer.mll # cached
+# Target: src/frontc/clexer.ml.depends, tags: { extension:ml, file:src/frontc/clexer.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/clexer.ml > src/frontc/clexer.ml.depends # cached
+# Target: src/frontc/lexerhack.ml.depends, tags: { extension:ml, file:src/frontc/lexerhack.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/lexerhack.ml > src/frontc/lexerhack.ml.depends # cached
+# Target: src/frontc/lexerhack.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/frontc/lexerhack.cmo, file:src/frontc/lexerhack.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/frontc -I ocamlutil -I src -I src/ext -I src/ext/pta -o src/frontc/lexerhack.cmo src/frontc/lexerhack.ml # cached
+# Target: ocamlutil/clist.ml.depends, tags: { extension:ml, file:ocamlutil/clist.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/clist.ml > ocamlutil/clist.ml.depends # cached
+# Target: src/frontc/cparser.ml.depends, tags: { extension:ml, file:src/frontc/cparser.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/frontc/cparser.ml > src/frontc/cparser.ml.depends # cached
+# Target: src/ext/dataflow.ml.depends, tags: { extension:ml, file:src/ext/dataflow.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/dataflow.ml > src/ext/dataflow.ml.depends # cached
+# Target: src/ext/dataslicing.mli.depends, tags: { extension:mli, file:src/ext/dataslicing.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/dataslicing.mli > src/ext/dataslicing.mli.depends # cached
+# Target: src/ext/dataslicing.cmi, tags: { byte, compile, extension:mli, file:src/ext/dataslicing.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/dataslicing.cmi src/ext/dataslicing.mli # cached
+# Target: src/ext/dataslicing.ml.depends, tags: { extension:ml, file:src/ext/dataslicing.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/dataslicing.ml > src/ext/dataslicing.ml.depends # cached
+# Target: src/ext/deadcodeelim.ml.depends, tags: { extension:ml, file:src/ext/deadcodeelim.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/deadcodeelim.ml > src/ext/deadcodeelim.ml.depends # cached
+# Target: src/ext/reachingdefs.ml.depends, tags: { extension:ml, file:src/ext/reachingdefs.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/reachingdefs.ml > src/ext/reachingdefs.ml.depends # cached
+# Target: src/ext/liveness.ml.depends, tags: { extension:ml, file:src/ext/liveness.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/liveness.ml > src/ext/liveness.ml.depends # cached
+# Target: src/ext/liveness.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ext/liveness.cmo, file:src/ext/liveness.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/liveness.cmo src/ext/liveness.ml # cached
+# Target: src/ext/reachingdefs.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ext/reachingdefs.cmo, file:src/ext/reachingdefs.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/reachingdefs.cmo src/ext/reachingdefs.ml # cached
+# Target: src/ext/dominators.mli.depends, tags: { extension:mli, file:src/ext/dominators.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/dominators.mli > src/ext/dominators.mli.depends # cached
+# Target: src/ext/dominators.cmi, tags: { byte, compile, extension:mli, file:src/ext/dominators.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src/ext -I ocamlutil -I src -I src/frontc -I src/ext/pta -o src/ext/dominators.cmi src/ext/dominators.mli # cached
+# Target: src/ext/dominators.ml.depends, tags: { extension:ml, file:src/ext/dominators.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/dominators.ml > src/ext/dominators.ml.depends # cached
+# Target: src/ext/epicenter.ml.depends, tags: { extension:ml, file:src/ext/epicenter.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/ext/epicenter.ml > src/ext/epicenter.ml.depends # cached
+# Target: ocamlutil/errormsg.ml.depends, tags: { extension:ml, file:ocamlutil/errormsg.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules ocamlutil/errormsg.ml > ocamlutil/errormsg.ml.depends # cached
+# Target: src/escape.ml.depends, tags: { extension:ml, file:src/escape.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/escape.ml > src/escape.ml.depends # cached
+# Target: make -C .. _build/feature_config.ml, tags: {  }
+make -C .. _build/feature_config.ml # cached
+# Target: feature_config.ml.depends, tags: { extension:ml, file:feature_config.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules feature_config.ml > feature_config.ml.depends # cached
+# Target: src/formatcil.mli.depends, tags: { extension:mli, file:src/formatcil.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/formatcil.mli > src/formatcil.mli.depends # cached
+# Target: src/formatcil.cmi, tags: { byte, compile, extension:mli, file:src/formatcil.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/formatcil.cmi src/formatcil.mli # cached
+# Target: src/formatcil.ml.depends, tags: { extension:ml, file:src/formatcil.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/formatcil.ml > src/formatcil.ml.depends # cached
+# Target: src/formatlex.mll, tags: { extension:mll, file:src/formatlex.mll, lexer, ocaml, ocamllex, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamllex.opt -q src/formatlex.mll # cached
+# Target: src/formatlex.ml.depends, tags: { extension:ml, file:src/formatlex.ml, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/formatlex.ml > src/formatlex.ml.depends # cached
+# Target: src/formatparse.mly, tags: { extension:mly, file:src/formatparse.mly, infer, ocaml, ocamlyacc, parser, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlyacc src/formatparse.mly # cached
+# Target: src/formatparse.mli.depends, tags: { extension:mli, file:src/formatparse.mli, ocaml, ocamldep, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamldep.opt -modules src/formatparse.mli > src/formatparse.mli.depends # cached
+# Target: src/formatparse.cmi, tags: { byte, compile, extension:mli, file:src/formatparse.mli, interf, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/formatparse.cmi src/formatparse.mli # cached
+# Target: src/formatlex.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/formatlex.cmo, file:src/formatlex.ml, implem, ocaml, quiet, traverse }
+/home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/formatlex.cmo src/formatlex.ml
++ /home/soyeon/.opam/new/bin/ocamlc.opt -c -g -I src -I ocamlutil -I src/ext -I src/frontc -I src/ext/pta -o src/formatlex.cmo src/formatlex.ml
+File "src/formatlex.mll", line 150, characters 4-26:
+Alert deprecated: Stdlib.String.set
+Use Bytes.set/BytesLabels.set instead.
+File "src/formatlex.mll", line 150, characters 4-8:
+Error: This expression has type string but an expression was expected of type
+         bytes
+Command exited with code 2.
+# Compilation unsuccessful.

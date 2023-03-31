@@ -1,0 +1,227 @@
+GenProg Version: Fri Jan 13 08:28:04 PM UTC 2023
+
+--allow-coverage-fail false
+--appp 0.33333
+--best-edit-rule "1 * fault_loc_weight ; 1 * max_test_fail_prob ; -1 * num_tests"
+--best-test-rule "1 * test_fail_prob ; 1 * test_fail_count ; -1 * test_pass_count"
+--clone-file ""
+--compiler "gcc"
+--compiler-command ""
+--compiler-opts ""
+--continue false
+--coverage-info ""
+--coverage-per-test false
+--crossover "one"
+--crossp 0.5
+--delp 0.33333
+--describe-machine false
+--disable-reduce-fix-space false
+--disable-reduce-search-space false
+--diversity-selection 0
+--edit-script false
+--eviction-strategy "random"
+--exclude-edits ""
+--exp-diff false
+--fault-file ""
+--fault-path "coverage.path.neg"
+--fault-scheme "uniform"
+--fitness-in-parallel 1
+--fitness-log "gcd_fit.csv"
+--fix-file ""
+--fix-oracle ""
+--fix-path "coverage.path.pos"
+--fix-scheme "uniform"
+--flatten-path "last"
+--format "txt"
+--gen-per-exchange 1
+--generations 2
+--geomp 0.5
+--gui false
+--hostname "127.0.0.1"
+--ignore-dead-code false
+--ignore-equiv-appends false
+--ignore-standard-headers false
+--ignore-string-equiv-fixes false
+--ignore-untyped-returns false
+--incoming-pop ""
+--keep-source false
+--label-repair true
+--lase-deallocation-api "free"
+--lase-paired-functions ""
+--lasep 0
+--max-evals 0
+--minimization false
+--mt-cov false
+--multi-file false
+--multiopt-minimize false
+--multiopt-no-inf false
+--name-in-test-cache false
+--neg-tests 1
+--neg-weight 1
+--negative-test-weight 2
+--nested false
+--neutral-walk-max-size 0
+--neutral-walk-weight ""
+--nht-id "global"
+--nht-port 51000
+--nht-server ""
+--no-rep-cache false
+--no-test-cache false
+--num-comps 2
+--num-fitness-samples 1
+--num-objectives 2
+--oracle-genome ""
+--pd-mutp 0.25
+--popsize 40
+--port 60000
+--pos-tests 5
+--pos-weight 0.1
+--prefix "./"
+--preprocessor ""
+--print-incremental-evals false
+--print-source-name false
+--program "gcd.c"
+--promut 1
+--quiet false
+--regen-paths false
+--rep ""
+--rep-cache ""
+--repp 0
+--samp-strat "variant"
+--sample 1
+--sample-runs 100
+--sanity "default"
+--search "steady-state"
+--seed 560680701
+--semantic-check "exact"
+--single-fitness false
+--skip-failed-sanity-tests false
+--skip-tests ""
+--split-search 0
+--sport 65000
+--subatom-constp 0.5
+--subatom-mutp 0
+--swap-bug false
+--swapp 0.33333
+--template-cache ""
+--templates ""
+--test-command ""
+--test-script "./test.sh"
+--tournament-size 2
+--uniq false
+--use-global-source-cache false
+--use-partition -1
+--valgrind false
+--variants-exchanged 50
+--version false
+cilRep: preprocessing IO function signatures: /tmp/tmp209b30.c /tmp/tmp62bf6a.c
+cilRep: done preprocessing IO function signatures
+cachingRep: gcd.cache: loaded
+faultlocRep: gcd.cache: loaded
+cilRep: gcd.cache: loaded
+cilRep: gcd.cache: saved
+cachingRep: gcd.cache: saved
+faultlocRep: gcd.cache: saved
+cilrep done serialize
+cilRep: stmt_count = 15
+cilRep: stmts in weighted_path = 15
+cilRep: total weight = 15
+cilRep: stmts in weighted_path with weight >= 1.0 = 15
+cilRep: gcd.c (code bank/base file; atoms [1,16])
+cilRep: 1 file(s) total in representation
+search: genetic algorithm begins (|original| = 0.0295963 MB)
+cilRep: shared size: 0.0387955 MB
+cilRep: private size: 0.00847054 MB
+search: initial population (sizeof one variant = 0.0296173 MB)
+	  5 original
+	  5 a(7,3)
+	  0 s(16,6)
+	  1 a(13,13)
+	  5 a(12,12)
+	  0 s(8,12)
+	  5 a(13,8)
+	  0 s(4,1)
+	  0 d(13)
+	  5 a(2,10)
+	  0 d(3)
+	  0 d(2)
+	  5 d(6)
+	  5 a(16,15)
+	  5 d(7)
+	  1 d(1)
+	  5 s(10,12)
+	  5 a(9,12)
+	  0 d(8)
+	  5 a(6,6)
+	  0 s(8,13)
+	  5 a(7,8)
+	 10 a(5,16)
+	  0 s(1,12)
+	  0 d(2)
+	  5 a(6,8)
+	  0 s(8,4)
+	  0 d(3)
+	  1 s(7,1)
+	  0 s(1,14)
+	  0 d(14)
+	  0 d(4)
+	  5 d(16)
+	  5 a(15,7)
+	  5 a(8,8)
+	  0 s(6,2)
+	  0 s(4,8)
+	  5 s(7,4)
+	  0 s(16,7)
+	  0 s(8,13)
+	  0 d(1) d(15)
+	  0 s(1,12) s(5,16)
+	  0 s(1,12) s(5,16) a(2,15)
+	 10 d(13) a(10,16)
+	 10 a(15,7) s(16,14)
+	  0 a(12,12) s(12,3)
+	  0 d(14) s(16,5)
+	  0 s(8,12) d(2)
+	  0 a(7,8) d(2)
+	  0 d(3) s(9,13)
+	  0 s(7,1) s(5,6)
+	  0 d(7) d(13)
+	  5 d(7) d(16)
+	  5 a(16,15) d(5)
+	  1 a(13,13) s(9,13)
+	  0 a(12,12) s(9,14)
+	  0 d(8) d(2)
+	 10 a(5,16) s(9,10)
+	  0 d(2) s(8,10)
+	  0 a(12,12) d(9)
+	  5 a(7,8) d(10)
+	  0 a(6,6) s(1,8)
+	  0 s(1,14) a(15,1)
+	  0 a(8,8) a(4,15)
+	  0 s(10,12) s(15,6)
+	  0 a(12,12) d(9) s(7,5)
+	  0 d(14) s(16,5) d(5) d(10)
+	  5 a(16,15) d(5)
+	  0 a(9,12) s(9,14) a(5,7)
+	  5 a(12,12) a(1,1)
+	  5 d(7) a(13,8)
+	  0 a(13,13) s(3,13)
+	 15 a(7,8) d(10) s(16,12)
+
+Repair Found: a(7,8) d(10) s(16,12)
+Repair Name: a(7,8) d(10) s(16,12)
+Test Cases Skipped: ""
+Current Time: 1674680623.821804
+cilRep: shared size: 0.0387955 MB
+cilRep: private size: 0.013998 MB
+Rep: saving test cache
+
+Variant Test Case Queries: 438
+"Test Suite Evaluations": 73
+
+Compile Failures: 0
+Wall-Clock Seconds Elapsed: 62.6393
+  Activity Name                     Count Seconds = Percent of Total Time
+  rebuild files                      2066   0.089 = 0.14339%
+  compile                              32   0.920 = 1.4743%
+  test                                192  61.375 = 98.3817%
+  TOTAL                                    62.384 = 99.5859% (avg CPU usage)

@@ -1,0 +1,162 @@
+GenProg Version: Fri Jan 13 08:28:04 PM UTC 2023
+
+--allow-coverage-fail false
+--appp 0.33333
+--best-edit-rule "1 * fault_loc_weight ; 1 * max_test_fail_prob ; -1 * num_tests"
+--best-test-rule "1 * test_fail_prob ; 1 * test_fail_count ; -1 * test_pass_count"
+--clone-file ""
+--compiler "gcc"
+--compiler-command ""
+--compiler-opts ""
+--continue false
+--coverage-info ""
+--coverage-per-test false
+--crossover "one"
+--crossp 0.5
+--delp 0.33333
+--describe-machine false
+--disable-reduce-fix-space false
+--disable-reduce-search-space false
+--diversity-selection 0
+--edit-script false
+--eviction-strategy "random"
+--exclude-edits ""
+--exp-diff false
+--fault-file ""
+--fault-path "coverage.path.neg"
+--fault-scheme "uniform"
+--fitness-in-parallel 1
+--fitness-log "nullp_log.csv"
+--fix-file ""
+--fix-oracle ""
+--fix-path "coverage.path.pos"
+--fix-scheme "uniform"
+--flatten-path "last"
+--format "txt"
+--gen-per-exchange 1
+--generations 2
+--geomp 0.5
+--gui false
+--hostname "127.0.0.1"
+--ignore-dead-code false
+--ignore-equiv-appends false
+--ignore-standard-headers false
+--ignore-string-equiv-fixes false
+--ignore-untyped-returns false
+--incoming-pop ""
+--keep-source false
+--label-repair true
+--lase-deallocation-api "free"
+--lase-paired-functions ""
+--lasep 0
+--max-evals 0
+--minimization false
+--mt-cov false
+--multi-file false
+--multiopt-minimize false
+--multiopt-no-inf false
+--name-in-test-cache false
+--neg-tests 3
+--neg-weight 1
+--negative-test-weight 2
+--nested false
+--neutral-walk-max-size 0
+--neutral-walk-weight ""
+--nht-id "global"
+--nht-port 51000
+--nht-server ""
+--no-rep-cache false
+--no-test-cache false
+--num-comps 2
+--num-fitness-samples 1
+--num-objectives 2
+--oracle-genome ""
+--pd-mutp 0.25
+--popsize 40
+--port 60000
+--pos-tests 7
+--pos-weight 0.1
+--prefix "./"
+--preprocessor ""
+--print-incremental-evals false
+--print-source-name false
+--program "nullp.c"
+--promut 1
+--quiet false
+--regen-paths false
+--rep ""
+--rep-cache ""
+--repp 0
+--samp-strat "variant"
+--sample 1
+--sample-runs 100
+--sanity "default"
+--search "steady-state"
+--seed 560680701
+--semantic-check "exact"
+--single-fitness false
+--skip-failed-sanity-tests false
+--skip-tests ""
+--split-search 0
+--sport 65000
+--subatom-constp 0.5
+--subatom-mutp 0
+--swap-bug false
+--swapp 0.33333
+--template-cache ""
+--templates ""
+--test-command ""
+--test-script "./test.sh"
+--tournament-size 2
+--uniq false
+--use-global-source-cache false
+--use-partition -1
+--valgrind false
+--variants-exchanged 50
+--version false
+cilRep: preprocessing IO function signatures: /tmp/tmp451b38.c /tmp/tmp86fe63.c
+cilRep: done preprocessing IO function signatures
+cachingRep: nullp.cache: loaded
+faultlocRep: nullp.cache: loaded
+cilRep: nullp.cache: loaded
+cilRep: nullp.cache: saved
+cachingRep: nullp.cache: saved
+faultlocRep: nullp.cache: saved
+cilrep done serialize
+cilRep: stmt_count = 28
+cilRep: stmts in weighted_path = 28
+cilRep: total weight = 28
+cilRep: stmts in weighted_path with weight >= 1.0 = 28
+cilRep: nullp.c (code bank/base file; atoms [1,30])
+cilRep: 1 file(s) total in representation
+search: genetic algorithm begins (|original| = 0.0317602 MB)
+cilRep: shared size: 0.0416756 MB
+cilRep: private size: 0.00876808 MB
+search: initial population (sizeof one variant = 0.0317812 MB)
+	  7 original
+	  4 a(12,15)
+	  0 s(29,1)
+	  7 a(24,25)
+	  7 a(20,8)
+	  0 s(15,14)
+	  7 a(23,14)
+	  7 s(7,22)
+	 21 d(22)
+
+Repair Found: d(22)
+Repair Name: d(22)
+Test Cases Skipped: ""
+Current Time: 1676394824.354069
+cilRep: shared size: 0.0416756 MB
+cilRep: private size: 0.0126238 MB
+Rep: saving test cache
+
+Variant Test Case Queries: 90
+"Test Suite Evaluations": 9
+
+Compile Failures: 0
+Wall-Clock Seconds Elapsed: 0.0891969
+  Activity Name                     Count Seconds = Percent of Total Time
+  test_cache hit                       90   0.000 = 0.249295%
+  rebuild files                       754   0.004 = 99.7507%
+  TOTAL                                     0.004 = 4.70553% (avg CPU usage)

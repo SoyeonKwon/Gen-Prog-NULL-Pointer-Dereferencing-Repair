@@ -1,0 +1,236 @@
+GenProg Version: Tue Feb 28 04:23:43 AM UTC 2023
+
+--allow-coverage-fail false
+--appp 0.33333
+--best-edit-rule "1 * fault_loc_weight ; 1 * max_test_fail_prob ; -1 * num_tests"
+--best-test-rule "1 * test_fail_prob ; 1 * test_fail_count ; -1 * test_pass_count"
+--clone-file ""
+--compiler "gcc"
+--compiler-command ""
+--compiler-opts ""
+--continue false
+--coverage-info ""
+--coverage-per-test false
+--crossover "one"
+--crossp 0.5
+--delp 0.33333
+--describe-machine false
+--disable-reduce-fix-space false
+--disable-reduce-search-space false
+--diversity-selection 0
+--edit-script false
+--eviction-strategy "random"
+--exclude-edits ""
+--exp-diff false
+--fault-file ""
+--fault-path "coverage.path.neg"
+--fault-scheme "path"
+--fitness-in-parallel 1
+--fitness-log ""
+--fix-file ""
+--fix-oracle ""
+--fix-path "coverage.path.pos"
+--fix-scheme "default"
+--flatten-path "last"
+--format "txt"
+--gen-per-exchange 1
+--generations 2
+--geomp 0.5
+--gui false
+--hostname "127.0.0.1"
+--ignore-dead-code false
+--ignore-equiv-appends false
+--ignore-standard-headers false
+--ignore-string-equiv-fixes false
+--ignore-untyped-returns false
+--incoming-pop ""
+--keep-source false
+--label-repair false
+--lase-deallocation-api "free"
+--lase-paired-functions ""
+--lasep 0
+--max-evals 0
+--minimization false
+--mt-cov false
+--multi-file false
+--multiopt-minimize false
+--multiopt-no-inf false
+--name-in-test-cache false
+--neg-tests 1
+--neg-weight 1
+--negative-test-weight 2
+--nested false
+--neutral-walk-max-size 0
+--neutral-walk-weight ""
+--nht-id "global"
+--nht-port 51000
+--nht-server ""
+--no-rep-cache false
+--no-test-cache false
+--num-comps 2
+--num-fitness-samples 1
+--num-objectives 2
+--oracle-genome ""
+--pd-mutp 0.25
+--popsize 30
+--port 60000
+--pos-tests 5
+--pos-weight 0.1
+--prefix "./"
+--preprocessor ""
+--print-incremental-evals false
+--print-source-name false
+--program "gcd.c"
+--promut 1
+--quiet false
+--regen-paths false
+--rep ""
+--rep-cache ""
+--repp 0
+--samp-strat "variant"
+--sample 1
+--sample-runs 100
+--sanity "default"
+--search "ga"
+--seed 0
+--semantic-check "exact"
+--single-fitness false
+--skip-failed-sanity-tests false
+--skip-tests ""
+--split-search 0
+--sport 65000
+--subatom-constp 0.5
+--subatom-mutp 0
+--swap-bug false
+--swapp 0.33333
+--template-cache ""
+--templates ""
+--test-command ""
+--test-script "./test.sh"
+--tournament-size 2
+--uniq false
+--use-global-source-cache false
+--use-partition -1
+--valgrind false
+--variants-exchanged 50
+--version false
+cilRep: preprocessing IO function signatures: /tmp/tmpa21dfc.c /tmp/tmpc23527.c
+cilRep: done preprocessing IO function signatures
+Exception in loading: Sys_error("gcd.cache: No such file or directory")
+cilrep: from_source: pre: stmt_count = 0
+cilRep: gcd.c: parsing
+cilRep: gcd.c: parsed (0.0174742 MB)
+cilrep: from_source: post: stmt_count: 15
+cilRep: shared size: 0.0228424 MB
+cilRep: private size: 0.00812721 MB
+cachingRepresentation: sanity checking begins
+	n1: false (0)
+	p1: true (1)
+	p2: true (1)
+	p3: true (1)
+	p4: true (1)
+	p5: true (1)
+cachingRepresentation: sanity checking passed (time_taken = 1.04921)
+faultLocRep: compute_localization: fault_scheme: path, fix_scheme: default
+WARNING: grabbing coverage from existing path files, so SFL will not work.
+cilRep: gcd.cache: saved
+cachingRep: gcd.cache: saved
+faultlocRep: gcd.cache: saved
+cilrep done serialize
+cilRep: stmt_count = 15
+cilRep: stmts in weighted_path = 15
+cilRep: total weight = 2
+cilRep: stmts in weighted_path with weight >= 1.0 = 1
+cilRep: gcd.c (code bank/base file; atoms [1,16])
+cilRep: 1 file(s) total in representation
+search: genetic algorithm begins (|original| = 0.0291281 MB)
+cilRep: shared size: 0.0230141 MB
+cilRep: private size: 0.00847054 MB
+search: initial population (sizeof one variant = 0.0291491 MB)
+	  5 original
+	  0 s(3,8)
+	  5 a(2,14)
+	  5 a(1,14)
+	  5 d(6)
+	  0 s(6,4)
+	  5 d(6)
+	  1 d(1)
+	  5 d(6)
+	  5 d(6)
+	  5 a(6,7)
+	  5 a(6,12)
+	  5 a(6,1)
+	  5 d(6)
+	  5 d(6)
+	  5 d(6)
+	  0 s(6,12)
+	  5 d(6)
+	  5 a(6,1)
+	  5 d(6)
+	  0 s(6,7)
+	  5 a(6,4)
+	  0 d(3)
+	  0 a(10,15)
+	  5 a(6,1)
+	  0 a(9,2)
+	  5 d(6)
+	  0 d(3)
+	  5 s(5,10)
+	  0 s(3,16)
+search: generation 1 (sizeof one variant = 0.0323362 MB)
+	  5 a(2,14) a(6,12)
+	  0 d(6) d(8)
+	  0 d(6) d(4)
+	  5 a(6,4) a(1,5)
+	  1 a(6,7) d(1)
+	  0 d(6) s(3,16)
+	  5 a(6,1) d(6)
+	  0 a(6,1) a(1,16)
+	  0 d(6) s(5,12)
+	  1 d(1) d(6)
+	  5 d(6) a(3,12)
+	  0 a(9,2) d(6)
+	  5 a(6,4) a(6,1)
+	  0 d(6) a(14,15)
+	  5 d(6) d(10)
+	  0 d(6) s(8,4)
+	  0 d(3) a(12,9)
+	  1 a(2,14) s(10,13)
+	  5 d(6) a(5,4)
+	  5 a(6,12) d(6)
+	  0 d(3) a(6,15)
+	  0 a(9,2) a(5,15)
+	  5 d(6) s(8,7)
+	  0 d(1) s(10,14)
+	  0 a(6,12) s(6,16)
+	  0 d(6) s(1,3)
+	  0 d(3) a(14,6)
+	  5 a(6,1) a(9,9)
+	  0 d(6) s(3,12)
+	  1 d(1) a(10,3)
+search: generation 2 (sizeof one variant = 0.0325041 MB)
+	  0 a(6,1) d(6) d(4)
+	  0 d(6) d(4) a(9,3)
+	  0 a(2,14) a(6,1) s(6,12)
+	  0 a(6,4) a(6,12) s(6,10)
+	  1 d(1) d(6) d(5)
+	  5 d(6) s(8,7) a(3,14)
+	  0 d(6) s(8,15)
+	  0 d(1) a(10,3) a(3,12) a(10,4)
+	  0 a(2,14) s(10,13) s(6,1)
+	  0 d(6) a(3,12) a(9,14)
+	  5 d(6) a(10,5)
+	  5 a(2,14) a(6,12) a(5,4) a(6,8)
+../../src/repair aborting: Stdlib.Sys.Break
+Rep: saving test cache
+
+Variant Test Case Queries: 432
+"Test Suite Evaluations": 72
+
+Compile Failures: 0
+Wall-Clock Seconds Elapsed: 143.136
+  Activity Name                     Count Seconds = Percent of Total Time
+  rebuild files                      1995   0.112 = 0.0787418%
+  compile                              61   1.735 = 1.21457%
+  test                                361 140.973 = 98.7056%
+  TOTAL                                   142.822 = 99.7777% (avg CPU usage)
