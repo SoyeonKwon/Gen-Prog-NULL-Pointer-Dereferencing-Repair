@@ -9,6 +9,7 @@ ulimit -t 1
 # echo $1 $2 $3 $4 $5 >> tesTrunsx.txt
 case $2 in
 
+  # p1) echo $1 0 && exit 0 ;;
   p1) $1 0 | diff output.0 - && exit 0 ;;
   p2) $1 1 | diff output.1 - && exit 0 ;;
   p3) $1 2 | diff output.2 - && exit 0 ;;

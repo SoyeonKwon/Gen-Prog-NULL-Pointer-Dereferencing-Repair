@@ -26,7 +26,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --fault-path "coverage.path.neg"
 --fault-scheme "uniform"
 --fitness-in-parallel 1
---fitness-log ""
+--fitness-log "nullp_log.csv"
 --fix-file ""
 --fix-oracle ""
 --fix-path "coverage.path.pos"
@@ -34,7 +34,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --flatten-path "last"
 --format "txt"
 --gen-per-exchange 1
---generations 10
+--generations 2
 --geomp 0.5
 --gui false
 --hostname "127.0.0.1"
@@ -45,7 +45,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --ignore-untyped-returns false
 --incoming-pop ""
 --keep-source false
---label-repair false
+--label-repair true
 --lase-deallocation-api "free"
 --lase-paired-functions ""
 --lasep 0
@@ -80,7 +80,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --preprocessor ""
 --print-incremental-evals false
 --print-source-name false
---program "nullp-001.c"
+--program "nullp.c"
 --promut 1
 --quiet false
 --regen-paths false
@@ -114,18 +114,49 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --valgrind false
 --variants-exchanged 50
 --version false
-cilRep: preprocessing IO function signatures: /tmp/tmp03f7b5.c /tmp/tmpa08587.c
+cilRep: preprocessing IO function signatures: /tmp/tmpe71ff1.c /tmp/tmpd75138.c
 cilRep: done preprocessing IO function signatures
-Exception in loading: Sys_error("nullp-001.cache: No such file or directory")
-cilrep: from_source: pre: stmt_count = 0
-cilRep: ./nullp-001.c: parsing
-../../src/repair aborting: Errormsg.Error
+cachingRep: nullp.cache: loaded
+faultlocRep: nullp.cache: loaded
+cilRep: nullp.cache: loaded
+cilRep: nullp.cache: saved
+cachingRep: nullp.cache: saved
+faultlocRep: nullp.cache: saved
+cilrep done serialize
+cilRep: stmt_count = 28
+cilRep: stmts in weighted_path = 28
+cilRep: total weight = 28
+cilRep: stmts in weighted_path with weight >= 1.0 = 28
+cilRep: nullp.c (code bank/base file; atoms [1,30])
+cilRep: 1 file(s) total in representation
+search: genetic algorithm begins (|original| = 0.0317602 MB)
+cilRep: shared size: 0.0416756 MB
+cilRep: private size: 0.00876808 MB
+search: initial population (sizeof one variant = 0.0317812 MB)
+	  7 original
+	  4 a(12,15)
+	  0 s(29,1)
+	  7 a(24,25)
+	  7 a(20,8)
+	  0 s(15,14)
+	  7 a(23,14)
+	  7 s(7,22)
+	 21 d(22)
+
+Repair Found: d(22)
+Repair Name: d(22)
+Test Cases Skipped: ""
+Current Time: 1680271098.449195
+cilRep: shared size: 0.0416756 MB
+cilRep: private size: 0.0126486 MB
 Rep: saving test cache
 
-Variant Test Case Queries: 0
-"Test Suite Evaluations": 0
+Variant Test Case Queries: 90
+"Test Suite Evaluations": 9
 
 Compile Failures: 0
-Wall-Clock Seconds Elapsed: 0.029392
+Wall-Clock Seconds Elapsed: 0.0875969
   Activity Name                     Count Seconds = Percent of Total Time
-  TOTAL                                     0.000 = 0% (avg CPU usage)
+  test_cache hit                       90   0.000 = 0.326927%
+  rebuild files                       754   0.005 = 99.6731%
+  TOTAL                                     0.005 = 5.23856% (avg CPU usage)
