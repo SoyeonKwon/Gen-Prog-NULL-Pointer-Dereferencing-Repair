@@ -1,4 +1,4 @@
-GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
+GenProg Version: Fri Apr  7 04:06:09 AM UTC 2023
 
 --allow-coverage-fail false
 --appp 0.33333
@@ -26,7 +26,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --fault-path "coverage.path.neg"
 --fault-scheme "uniform"
 --fitness-in-parallel 1
---fitness-log "nullp_log.csv"
+--fitness-log ""
 --fix-file ""
 --fix-oracle ""
 --fix-path "coverage.path.pos"
@@ -114,7 +114,7 @@ GenProg Version: Fri Mar 31 07:42:56 AM UTC 2023
 --valgrind false
 --variants-exchanged 50
 --version false
-cilRep: preprocessing IO function signatures: /tmp/tmpe71ff1.c /tmp/tmpd75138.c
+cilRep: preprocessing IO function signatures: /tmp/tmpd29ff7.c /tmp/tmp22b5b7.c
 cilRep: done preprocessing IO function signatures
 cachingRep: nullp.cache: loaded
 faultlocRep: nullp.cache: loaded
@@ -146,7 +146,7 @@ search: initial population (sizeof one variant = 0.0317812 MB)
 Repair Found: d(22)
 Repair Name: d(22)
 Test Cases Skipped: ""
-Current Time: 1680271098.449195
+Current Time: 1680874473.388562
 cilRep: shared size: 0.0416756 MB
 cilRep: private size: 0.0126486 MB
 Rep: saving test cache
@@ -155,8 +155,8 @@ Variant Test Case Queries: 90
 "Test Suite Evaluations": 9
 
 Compile Failures: 0
-Wall-Clock Seconds Elapsed: 0.0875969
+Wall-Clock Seconds Elapsed: 0.0873768
   Activity Name                     Count Seconds = Percent of Total Time
-  test_cache hit                       90   0.000 = 0.326927%
-  rebuild files                       754   0.005 = 99.6731%
-  TOTAL                                     0.005 = 5.23856% (avg CPU usage)
+  test_cache hit                       90   0.000 = 0.349848%
+  rebuild files                       754   0.005 = 99.6502%
+  TOTAL                                     0.005 = 5.05564% (avg CPU usage)

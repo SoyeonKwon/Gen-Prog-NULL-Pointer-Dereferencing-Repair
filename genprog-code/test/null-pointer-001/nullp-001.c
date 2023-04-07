@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
   int *ptr[10];
   // An integer array
   int nums[10];
-
+  // A flag for checking negative test case indices
   int negIndex = 0;
  
   
@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
   // pointer array[i] = address of i th of the integer array
   for (int i = 0; i < ARR_SIZE; i++){
     nums[i] = i + 1;
-    ptr[i] = ((void *) 0);
+    ptr[i] = ((void *) 0); 
     for(int j = 0; j < NUM_NEGTESTS; j++){
       if (arg_index == null_indices[j]){
 	negIndex = cause_err(arg_index, ptr); 
